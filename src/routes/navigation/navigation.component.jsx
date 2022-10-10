@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import { ReactComponent as ShopStore } from "../../assets/Simple-Isometric-Store-3.svg";
+import { ReactComponent as ShopStore } from "../../assets/crown.svg";
+import "./navigation.styles.scss";
 
 const Navigation = () => {
   return (
@@ -13,6 +14,9 @@ const Navigation = () => {
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
             SHOP
+          </Link>
+          <Link className="sign-in-link" to="/sign-in">
+            SIGN IN
           </Link>
         </div>
       </div>
