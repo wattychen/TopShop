@@ -17,10 +17,12 @@ export const BaseButton = styled.button`
   cursor: pointer;
   display: flex;
   justify-content: center;
+  font-size: 80%;
   &:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+    font-size: 75%;
   }
 `;
 
