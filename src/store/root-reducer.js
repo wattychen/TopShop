@@ -6,3 +6,7 @@ export const rootReducer = combineReducers({
     user: userReducer,
     categories: categoriesReducer
 })
+
+export const abc = (acb) => {
+    `lets see if this works`
+}
